@@ -1,6 +1,6 @@
 First you need to get the kernel source code used by Microsoft. You can get it from their github page with this command:
 ```
-git clone --branch $(uname -r) --depth 1 https://github.com/microsoft/WSL2-Linux-Kernel.git
+git clone --branch linux-msft-wsl-5.15.y --depth 1 https://github.com/microsoft/WSL2-Linux-Kernel.git
 ```
 Then inside the WSL2-Linux-Kernel directory you just downloaded, you need to copy the current kernel configuration with:
 ```
